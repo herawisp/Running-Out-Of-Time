@@ -462,6 +462,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: f33022a80ff0f294aa4077b68a8fa8c0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 426367420}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: f33022a80ff0f294aa4077b68a8fa8c0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 426367424}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: f33022a80ff0f294aa4077b68a8fa8c0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 426367423}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: f33022a80ff0f294aa4077b68a8fa8c0, type: 3}
 --- !u!1 &426367418 stripped
 GameObject:
@@ -538,8 +544,51 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &426367423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426367418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 4ae948b80829a2d4c9444e402df612ce, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &426367424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426367418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffbf6065e1743e489d8151cf594897c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 8
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
